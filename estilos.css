@@ -1,0 +1,377 @@
+body{
+	font-family: 'Merienda', cursive;
+	margin: 0px ;
+	padding: 0px;
+}
+	li{
+		list-style:none;
+		margin-right: 25px;
+
+	}
+	.lista{
+		list-style: none;
+		padding: 0;
+		background: white ;
+		width: 100%;
+		max-width: 1080px;
+		margin: auto;
+	}
+	.menu{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.lista{
+		display: flex;
+		justify-content: space space-between;
+		font-size: 25px;
+		padding: 15px;
+		color: white;
+	}
+ .lista :hover{
+		 	background: white;
+
+		 }
+
+p{
+	font-size: 25px;
+	color: ;
+
+}
+
+a{
+	text-decoration: none;
+	color:black;
+	background: ;
+	padding:11px;
+}
+.titular a, #nosotros a,#Productos a,#Catalago a,#blog{
+				color: black;
+				background: ;
+				padding:20px;
+				text-decoration: none;
+			}
+.titular{
+	text-align: center;
+	margin-top: 150px;
+
+}
+
+h2{
+	margin-bottom:40px;
+	font-size: 25px;
+}
+
+h1{
+	font-size: 60px;
+	margin: 0px;
+	color: black;
+}
+
+marquee{
+
+
+				
+			}
+header{
+	height: 100vh;
+	background: url(cable.jpg);
+
+}
+
+.contenedor-cab{
+	max-width: 1280px;
+	width: 90%;
+	margin: auto;
+}
+
+/* esto le corresponde a sobre mi*/
+
+h3{
+font-size: 50px;
+text-align: center;
+
+}
+.sobremi{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: linear-gradient(to top, #12CBF3 , #FFE479)  ;
+
+}
+
+
+.parrafo-boton{
+	width: 42%;
+}
+
+.parrafo-boton p{
+	font-size: 25px;
+	text-align: justify;
+	
+	padding: 0px;
+	margin-right: 40px;
+}
+
+.parrafo-boton a{
+	margin-top: 20px;
+	display: inline-block;
+	background: #5DADE2;
+				border-radius: 10px;
+			
+}
+	
+
+	/* esto le corresponde a servicios*/
+.tamaño{
+				font-size: 20px;
+			}
+	
+	.contenedor-productos{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		
+	}
+
+	.contenedor-productos :hover{
+	transition: color 0.4s ease;
+	 color: black;
+	 text-decoration: none;
+	 background: #12CBF3;
+	  transition background: color 0.4s ease;
+	}
+
+	.contenedor-productos div {
+	width: 28%;
+    padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+
+}
+.violeta{
+	background:  linear-gradient(to top, #12CBF3 , #FFE479); ;
+
+}
+.celeste{
+   background:  linear-gradient(to top, #E2A39C , #FECC62) ;	
+}
+.contenedor-productos h4{
+	font-size: 25px;
+	color: #ffff;
+
+}
+
+.contenedor-productos p{
+	font-size: 25px;
+	color:#ffff ;
+	text-align: justify;
+}
+.contenedor-productos img{
+	float: right;
+}
+
+.sobremi p{
+	justify-content: space-between;
+	justify-content: 25px;
+}
+/* esta parte le corresponde a blog*/
+#blog{
+	background: #D9B8A1 ;
+	padding-top: 50PX;
+
+}
+	.contenedor-publicaciones{
+		display: flex;
+		justify-content: space-around;
+
+
+	}
+	.contenedor-publicaciones h4{
+		text-align: center;
+
+
+	}
+	.contenedor-publicaciones p{
+		text-align: center;
+		font-size: 20px;
+
+	}
+	.contenedor-publicaciones a{
+		display: inline-block;
+		border-radius: 6px;
+		padding: 10px;
+		margin-top: 10px;
+	
+
+	}
+	.pagina{
+		width: 30%;
+		margin: 25px;
+		text-align: center;	
+		box-shadow: 20px -12px 14px #929234   ;
+		
+
+		
+	}
+ .ofimatica{
+ 	  width: 30%;
+		margin: 25px;
+		text-align: center;
+		box-shadow: 20px -12px 14px #929234  ;
+
+
+ }
+ #blog img{
+ 	width: 100%;
+ }
+ 
+ span{
+ 	font-size: 40px;
+ 	color: #3653E1 ;
+ }
+ .owl-nav{
+ 	text-align: center;
+ 		}
+ #whatsapp a{
+	background: none;
+	position: fixed;
+	top: 85%;
+	right: 15px;
+}
+	#facebook a{
+		background: none;
+		position: fixed;
+		top: 65%;
+		right: 2%;
+	}
+.item{
+	text-align: center;
+	}
+
+	.menu-icono{
+				display: none;
+			}
+			.ubicacion{
+				text-align: center;
+			}
+
+
+
+			footer{
+				margin: 0;
+				background: #111d30;
+    			padding: 40px;
+    			text-align: center;
+    			margin-top: 40px;
+			}
+
+			footer .contenedor{
+				display: flex;
+    			justify-content: center;
+   				flex-direction: column;
+			}
+
+			footer img {
+				 margin: 0 40px;
+   				 transform: rotate(0);
+   				 transition: 0.4s;
+			}
+
+
+			footer p{
+				color: #fff;
+   				 margin-top: 40px;
+			}
+	
+	/* esta parte le corresponde al diseño responsive */
+			
+				@media(max-width: 480px){
+			      header{
+			      	background: url(celular.jpg);
+				      height:100vh ;
+			         margin-bottom: 15px;
+			
+			
+				}
+				nav{
+					position: absolute;
+					top: 70px;
+					left: 0px;
+					background: #5cb8ff;
+					width: 100%;
+				}
+				nav .lista{
+					flex-direction: column;
+					display: flex;
+					padding: 40px;
+					left: 0px;
+				}
+				.menu-icono{
+					display: block;
+					width: 50px;
+			      height: 35px;
+				   margin-top: 15px;
+			
+				}
+				
+				h1{
+					font-size: 35px;
+			
+				}
+				h2{
+					font-size: 20px;
+					color: red;
+					margin-top: 0px;
+			
+				}
+			
+				.titular{
+					margin-top: 185px;
+			
+				}
+			  
+			
+				.sobremi{
+					flex-direction: column;
+			
+					}
+
+					.parrafo-boton{
+						width: 90%;
+						text-align: center;	
+			}
+			
+			.contenedor-productos{
+				width: 320%;
+				margin: 0;
+				margin-bottom: 15%;
+				flex-direction: column;
+			
+			}
+			/*.proyecto{
+				width: 75%;
+				margin: auto;
+			}*/
+			
+			.contenedor-publicaciones{
+				flex-direction: column;
+				width: 280%;
+				margin: auto;
+			}
+			  .contenedor-publicaciones a {
+			   background: #5DADE2;
+			}
+			
+			.publicaciones{
+				width: 90%;
+				margin: auto;
+				margin-bottom: 25%;
+			}
+			
+			@media (max-width:850px){
+			
+			
+			}
+
+	
